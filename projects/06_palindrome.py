@@ -8,4 +8,7 @@ def paldrm_chk(word):
 
 
 name = input("type in a word: ")
-paldrm_chk(name)
+# paldrm_chk(name)
+word=name
+rev = word[0::1]
+print(rev)
